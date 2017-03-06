@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>nmpp: Исходный файл D:/GIT/nmpp/include/nmplv/vStat.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">nmpp
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.4 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="modules.html"><span>Группы</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li><a href="globals.html"><span>Список&#160;членов&#160;всех&#160;файлов</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_14c1f8410c4e0ac355cb785d760f1f19.html">nmplv</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">vStat.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  $Workfile:: vStat.h  $</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Векторно-матричная библиотека</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//  Copyright (c) RC Module Inc.</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">//  $Revision: 1.1 $      $Date: 2004/11/22 13:50:02 $</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"></span><span class="comment">//------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#ifndef _VSTAT_H_INCLUDED_</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define _VSTAT_H_INCLUDED_</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor"></span>                <span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;   <span class="keywordtype">unsigned</span> nmppsCrcAcc_32u(<a class="code" href="group__nmvectype.html#gacb8af4747a1a1b39683e44fb7caff5b2">nm32u</a>* pSrcVec, <span class="keywordtype">int</span> nSize, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>* crcAccumulator);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;   <span class="keywordtype">unsigned</span> nmppsCrc_32u(<a class="code" href="group__nmvectype.html#gacb8af4747a1a1b39683e44fb7caff5b2">nm32u</a>* pSrcVec, <span class="keywordtype">int</span> nSize);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;   </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;__INLINE__ <span class="keywordtype">unsigned</span>  nmppsCrc_64s(<a class="code" href="group__nmvectype.html#ga4e59c2dc9731ba8592b0991bf71c7af3">nm64s</a>* pSrcVec, <span class="keywordtype">int</span> nSize) {  <span class="keywordflow">return</span> nmppsCrc_32u((<span class="keywordtype">unsigned</span>*)pSrcVec, nSize&lt;&lt;1); }</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;__INLINE__ <span class="keywordtype">unsigned</span>  nmppsCrc_32s(<a class="code" href="group__nmvectype.html#ga340133c964d0ae670f3bd3ff3a6b172a">nm32s</a>* pSrcVec, <span class="keywordtype">int</span> nSize) {  <span class="keywordflow">return</span> nmppsCrc_32u((<span class="keywordtype">unsigned</span>*)pSrcVec, nSize   ); }           </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;__INLINE__ <span class="keywordtype">unsigned</span>  nmppsCrc_16s(nm16s* pSrcVec, <span class="keywordtype">int</span> nSize) {  <span class="keywordflow">return</span> nmppsCrc_32u((<span class="keywordtype">unsigned</span>*)pSrcVec, nSize&gt;&gt;1); }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;__INLINE__ <span class="keywordtype">unsigned</span>  nmppsCrc_8s (nm8s*  pSrcVec, <span class="keywordtype">int</span> nSize) {  <span class="keywordflow">return</span> nmppsCrc_32u((<span class="keywordtype">unsigned</span>*)pSrcVec, nSize&gt;&gt;2); }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;__INLINE__ <span class="keywordtype">unsigned</span>  nmppsCrc_64u(<a class="code" href="group__nmvectype.html#gacffc3cf301915bbe094bbb1d39e9a8c0">nm64u</a>* pSrcVec, <span class="keywordtype">int</span> nSize) {  <span class="keywordflow">return</span> nmppsCrc_32u((<span class="keywordtype">unsigned</span>*)pSrcVec, nSize&lt;&lt;1); }</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                                                                </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;__INLINE__ <span class="keywordtype">unsigned</span>  nmppsCrc_16u(nm16u* pSrcVec, <span class="keywordtype">int</span> nSize) {  <span class="keywordflow">return</span> nmppsCrc_32u((<span class="keywordtype">unsigned</span>*)pSrcVec, nSize&gt;&gt;1); }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;__INLINE__ <span class="keywordtype">unsigned</span>  nmppsCrc_8u (nm8u*  pSrcVec, <span class="keywordtype">int</span> nSize) {  <span class="keywordflow">return</span> nmppsCrc_32u((<span class="keywordtype">unsigned</span>*)pSrcVec, nSize&gt;&gt;2); }</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;__INLINE__ <span class="keywordtype">unsigned</span> nmppsCrcAcc_64s(<a class="code" href="group__nmvectype.html#ga4e59c2dc9731ba8592b0991bf71c7af3">nm64s</a>* pSrcVec, <span class="keywordtype">int</span> nSize, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>* crcAccumulator) {  <span class="keywordflow">return</span> nmppsCrcAcc_32u((<span class="keywordtype">unsigned</span>*)pSrcVec, nSize&lt;&lt;1, crcAccumulator); }</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;__INLINE__ <span class="keywordtype">unsigned</span> nmppsCrcAcc_32s(<a class="code" href="group__nmvectype.html#ga340133c964d0ae670f3bd3ff3a6b172a">nm32s</a>* pSrcVec, <span class="keywordtype">int</span> nSize, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>* crcAccumulator) {  <span class="keywordflow">return</span> nmppsCrcAcc_32u((<span class="keywordtype">unsigned</span>*)pSrcVec, nSize,    crcAccumulator); }           </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;__INLINE__ <span class="keywordtype">unsigned</span> nmppsCrcAcc_16s(nm16s* pSrcVec, <span class="keywordtype">int</span> nSize, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>* crcAccumulator) {  <span class="keywordflow">return</span> nmppsCrcAcc_32u((<span class="keywordtype">unsigned</span>*)pSrcVec, nSize&gt;&gt;1, crcAccumulator); }</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;__INLINE__ <span class="keywordtype">unsigned</span> nmppsCrcAcc_8s (nm8s*  pSrcVec, <span class="keywordtype">int</span> nSize, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>* crcAccumulator) {  <span class="keywordflow">return</span> nmppsCrcAcc_32u((<span class="keywordtype">unsigned</span>*)pSrcVec, nSize&gt;&gt;2, crcAccumulator); }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;__INLINE__ <span class="keywordtype">unsigned</span> nmppsCrcAcc_64u(<a class="code" href="group__nmvectype.html#gacffc3cf301915bbe094bbb1d39e9a8c0">nm64u</a>* pSrcVec, <span class="keywordtype">int</span> nSize, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>* crcAccumulator) {  <span class="keywordflow">return</span> nmppsCrcAcc_32u((<span class="keywordtype">unsigned</span>*)pSrcVec, nSize&lt;&lt;1, crcAccumulator); }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                                                                                                </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;__INLINE__ <span class="keywordtype">unsigned</span> nmppsCrcAcc_16u(nm16u* pSrcVec, <span class="keywordtype">int</span> nSize, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>* crcAccumulator) {  <span class="keywordflow">return</span> nmppsCrcAcc_32u((<span class="keywordtype">unsigned</span>*)pSrcVec, nSize&gt;&gt;1, crcAccumulator); }</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;__INLINE__ <span class="keywordtype">unsigned</span> nmppsCrcAcc_8u (nm8u*  pSrcVec, <span class="keywordtype">int</span> nSize, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>* crcAccumulator) {  <span class="keywordflow">return</span> nmppsCrcAcc_32u((<span class="keywordtype">unsigned</span>*)pSrcVec, nSize&gt;&gt;2, crcAccumulator); }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment">//*****************************************************************************</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="comment"></span><span class="keywordtype">int</span> nmppsSadV16_16s(nm16s* pSrc1,nm16s* pSrc2);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="keywordtype">int</span> nmppsSadV16_8s(nm8s*  pSrc1,nm8s*  pSrc2);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        </div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="preprocessor"></span>                };</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="preprocessor">#endif // _VSTAT_H_INCLUDED_</span></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по nmpp. Последние изменения: Пн 6 Мар 2017 23:11:50. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.4
+</small></address>
+</body>
+</html>

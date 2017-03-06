@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>nmpp: Исходный файл D:/GIT/nmpp/include/nmplm/mInit.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">nmpp
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.4 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="modules.html"><span>Группы</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li><a href="globals.html"><span>Список&#160;членов&#160;всех&#160;файлов</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_1339ca9787dc4f75549d8b5c1a49fa84.html">nmplm</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">mInit.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  $Workfile:: mInit.h  $</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Векторно-матричная библиотека</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//  Copyright (c) RC Module Inc.</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">//  $Revision: 1.1 $      $Date: 2005/01/12 14:03:24 $</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"></span><span class="comment">//------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#ifndef _MINIT_H_INCLUDED_</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define _MINIT_H_INCLUDED_</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">//*****************************************************************************</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="comment">//--------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"></span>    <span class="comment">//--------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">//*****************************************************************************</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="keywordtype">void</span> MTR_Copyua_8s (  nm8s* pSrcMtr, <span class="keywordtype">int</span> nSrcStride, <span class="keywordtype">int</span> nSrcOffset, nm8s* pDstMtr,  <span class="keywordtype">int</span> nDstStride,<span class="keywordtype">int</span> nHeight, <span class="keywordtype">int</span> nWidth);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="keywordtype">void</span> MTR_Copyua_16s( nm16s* pSrcMtr, <span class="keywordtype">int</span> nSrcStride, <span class="keywordtype">int</span> nSrcOffset, nm16s* pDstMtr, <span class="keywordtype">int</span> nDstStride,<span class="keywordtype">int</span> nHeight, <span class="keywordtype">int</span> nWidth);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="keywordtype">void</span> MTR_Copyua_32s( <a class="code" href="group__nmvectype.html#ga340133c964d0ae670f3bd3ff3a6b172a">nm32s</a>* pSrcMtr, <span class="keywordtype">int</span> nSrcStride, <span class="keywordtype">int</span> nSrcOffset, <a class="code" href="group__nmvectype.html#ga340133c964d0ae670f3bd3ff3a6b172a">nm32s</a>* pDstMtr, <span class="keywordtype">int</span> nDstStride,<span class="keywordtype">int</span> nHeight, <span class="keywordtype">int</span> nWidth);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="comment">//*****************************************************************************</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="keywordtype">void</span> MTR_Copyau_8s (  nm8s* pSrcMtr, <span class="keywordtype">int</span> nSrcStride, nm8s* pDstMtr,  <span class="keywordtype">int</span> nDstStride, <span class="keywordtype">int</span> nDstOffset,<span class="keywordtype">int</span> nHeight, <span class="keywordtype">int</span> nWidth);</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="keywordtype">void</span> MTR_Copyau_16s( nm16s* pSrcMtr, <span class="keywordtype">int</span> nSrcStride, nm16s* pDstMtr, <span class="keywordtype">int</span> nDstStride, <span class="keywordtype">int</span> nDstOffset,<span class="keywordtype">int</span> nHeight, <span class="keywordtype">int</span> nWidth);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;<span class="keywordtype">void</span> MTR_Copyau_32s( <a class="code" href="group__nmvectype.html#ga340133c964d0ae670f3bd3ff3a6b172a">nm32s</a>* pSrcMtr, <span class="keywordtype">int</span> nSrcStride, <a class="code" href="group__nmvectype.html#ga340133c964d0ae670f3bd3ff3a6b172a">nm32s</a>* pDstMtr, <span class="keywordtype">int</span> nDstStride, <span class="keywordtype">int</span> nDstOffset,<span class="keywordtype">int</span> nHeight, <span class="keywordtype">int</span> nWidth);</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;<span class="comment">//*****************************************************************************</span></div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="keywordtype">void</span> MTR_Copy_8s (  nm8s* pSrcMtr, <span class="keywordtype">int</span> nSrcStride,  nm8s* pDstMtr, <span class="keywordtype">int</span> nDstStride, <span class="keywordtype">int</span> nHeight, <span class="keywordtype">int</span> nWidth);</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="keywordtype">void</span> MTR_Copy_16s( nm16s* pSrcMtr, <span class="keywordtype">int</span> nSrcStride, nm16s* pDstMtr, <span class="keywordtype">int</span> nDstStride, <span class="keywordtype">int</span> nHeight, <span class="keywordtype">int</span> nWidth);</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="keywordtype">void</span> MTR_Copy_32s( <a class="code" href="group__nmvectype.html#ga340133c964d0ae670f3bd3ff3a6b172a">nm32s</a>* pSrcMtr, <span class="keywordtype">int</span> nSrcStride, <a class="code" href="group__nmvectype.html#ga340133c964d0ae670f3bd3ff3a6b172a">nm32s</a>* pDstMtr, <span class="keywordtype">int</span> nDstStride, <span class="keywordtype">int</span> nHeight, <span class="keywordtype">int</span> nWidth);</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="keywordtype">void</span> MTR_Copy_64s( <a class="code" href="group__nmvectype.html#ga4e59c2dc9731ba8592b0991bf71c7af3">nm64s</a>* pSrcMtr, <span class="keywordtype">int</span> nSrcStride, <a class="code" href="group__nmvectype.html#ga4e59c2dc9731ba8592b0991bf71c7af3">nm64s</a>* pDstMtr, <span class="keywordtype">int</span> nDstStride, <span class="keywordtype">int</span> nHeight, <span class="keywordtype">int</span> nWidth);</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="comment">//*****************************************************************************</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;<span class="keywordtype">void</span> MTR_Fill_8s(nm8s* pMtr,  <a class="code" href="group__nmtype.html#ga76ec3af99402ffbf69b57b18f11defad">int8b</a> nVal, <span class="keywordtype">int</span> nMtrStride, <span class="keywordtype">int</span> nMtrHeight, <span class="keywordtype">int</span> nMtrWidth);</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    </div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    </div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="preprocessor">#endif // _MINIT_H_INCLUDED_</span></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по nmpp. Последние изменения: Пн 6 Мар 2017 23:11:50. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.4
+</small></address>
+</body>
+</html>

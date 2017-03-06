@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>nmpp: Шаблон класса CSIG_FIR&lt; nmbits_in, nmbits_out &gt;</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">nmpp
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.4 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="modules.html"><span>Группы</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="files.html"><span>Файлы</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="classes.html"><span>Алфавитный&#160;указатель&#160;классов</span></a></li>
+      <li><a href="hierarchy.html"><span>Иерархия&#160;классов</span></a></li>
+      <li><a href="functions.html"><span>Члены&#160;классов</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pub-attribs">Открытые атрибуты</a> &#124;
+<a href="class_c_s_i_g___f_i_r-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Шаблон класса CSIG_FIR&lt; nmbits_in, nmbits_out &gt;<div class="ingroups"><a class="el" href="group___c_s_i_g___f_i_r.html">КИХ-фильтрация</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="s_filtration_8h_source.html">sFiltration.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a67063b6cadc8e41a7a3a60589b3fb82d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_i_g___f_i_r.html#a67063b6cadc8e41a7a3a60589b3fb82d">CSIG_FIR</a> (int <a class="el" href="class_c_s_i_g___f_i_r.html#a818f9edcc37f55fe6613c4f74e746e7d">nWeights</a>, void *(*malloc32_func)(unsigned), void(*free32_func)(void *))</td></tr>
+<tr class="memdesc:a67063b6cadc8e41a7a3a60589b3fb82d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор КИХ фильтра  <a href="#a67063b6cadc8e41a7a3a60589b3fb82d">Подробнее...</a><br/></td></tr>
+<tr class="separator:a67063b6cadc8e41a7a3a60589b3fb82d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b1de31893bf83830c5fda35d52af053"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_i_g___f_i_r.html#a4b1de31893bf83830c5fda35d52af053">init</a> (int <a class="el" href="class_c_s_i_g___f_i_r.html#a818f9edcc37f55fe6613c4f74e746e7d">nWeights</a>, void *(*malloc32_func)(unsigned), void(*free32_func)(void *))</td></tr>
+<tr class="memdesc:a4b1de31893bf83830c5fda35d52af053"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор КИХ фильтра  <a href="#a4b1de31893bf83830c5fda35d52af053">Подробнее...</a><br/></td></tr>
+<tr class="separator:a4b1de31893bf83830c5fda35d52af053"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe80088db1a05961394d65bfaacb4cd8"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_i_g___f_i_r.html#afe80088db1a05961394d65bfaacb4cd8">setWeights</a> (int *pWeights)</td></tr>
+<tr class="memdesc:afe80088db1a05961394d65bfaacb4cd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Загружает коэффициенты фильтра и инициализирует внутреннюю структуру хранения коэффициентов в pKernel.  <a href="#afe80088db1a05961394d65bfaacb4cd8">Подробнее...</a><br/></td></tr>
+<tr class="separator:afe80088db1a05961394d65bfaacb4cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b856137f675d99a14bf87c4cbaeb744"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_i_g___f_i_r.html#a5b856137f675d99a14bf87c4cbaeb744">filter</a> (nmbits_in *pSrcVec, nmbits_out *pDstVec, int nSize)</td></tr>
+<tr class="memdesc:a5b856137f675d99a14bf87c4cbaeb744"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функция одномерной фильтрации  <a href="#a5b856137f675d99a14bf87c4cbaeb744">Подробнее...</a><br/></td></tr>
+<tr class="separator:a5b856137f675d99a14bf87c4cbaeb744"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed991f3fd00b180b9e7459290539aabc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aed991f3fd00b180b9e7459290539aabc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_i_g___f_i_r.html#aed991f3fd00b180b9e7459290539aabc">~CSIG_FIR</a> ()</td></tr>
+<tr class="memdesc:aed991f3fd00b180b9e7459290539aabc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Освобождает динамическую область памяти pKernel. <br/></td></tr>
+<tr class="separator:aed991f3fd00b180b9e7459290539aabc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Открытые атрибуты</h2></td></tr>
+<tr class="memitem:a5e01079dcd86fab7c8c69934fe842aef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5e01079dcd86fab7c8c69934fe842aef"></a>
+void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_i_g___f_i_r.html#a5e01079dcd86fab7c8c69934fe842aef">pfFree32</a> )(void *)</td></tr>
+<tr class="memdesc:a5e01079dcd86fab7c8c69934fe842aef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Указатель на функции освобождения памяти (pKernel) <br/></td></tr>
+<tr class="separator:a5e01079dcd86fab7c8c69934fe842aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a818f9edcc37f55fe6613c4f74e746e7d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a818f9edcc37f55fe6613c4f74e746e7d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_i_g___f_i_r.html#a818f9edcc37f55fe6613c4f74e746e7d">nWeights</a></td></tr>
+<tr class="memdesc:a818f9edcc37f55fe6613c4f74e746e7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Количество коэффициентов КИХ фильтра <br/></td></tr>
+<tr class="separator:a818f9edcc37f55fe6613c4f74e746e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7f87abea73c17a0dcef639097d3c796"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa7f87abea73c17a0dcef639097d3c796"></a>
+<a class="el" href="group__nmvectype.html#ga4e59c2dc9731ba8592b0991bf71c7af3">nm64s</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_i_g___f_i_r.html#aa7f87abea73c17a0dcef639097d3c796">pKernel</a></td></tr>
+<tr class="memdesc:aa7f87abea73c17a0dcef639097d3c796"><td class="mdescLeft">&#160;</td><td class="mdescRight">Указатель на внутреннюю структуру коэффициентов <br/></td></tr>
+<tr class="separator:aa7f87abea73c17a0dcef639097d3c796"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2b4440ebf225731e23c7283a9314ae0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac2b4440ebf225731e23c7283a9314ae0"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_i_g___f_i_r.html#ac2b4440ebf225731e23c7283a9314ae0">nKernelSize</a></td></tr>
+<tr class="memdesc:ac2b4440ebf225731e23c7283a9314ae0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Размер памяти необходимый для хранения внутренней структуру коэффициентов <br/></td></tr>
+<tr class="separator:ac2b4440ebf225731e23c7283a9314ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><h3>template&lt;class nmbits_in, class nmbits_out&gt;<br/>
+class CSIG_FIR&lt; nmbits_in, nmbits_out &gt;</h3>
+
+<p>Класс КИХ фильтра </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">nmbits_in</td><td>Тип указывающий разрядность входного вектора. Допустимые типы : nm8s,nm16s,nm32s </td></tr>
+    <tr><td class="paramname">nmbits_out</td><td>Тип указывающий разрядность выходного вектора. Допустимые типы : nm8s,nm16s,nm32s. Разрядность входного вектора не должна превышать разрядности выходного. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>Пример</dt><dd><div class="fragment"></div><!-- fragment --> </dd></dl>
+
+<p>См. определение в файле <a class="el" href="s_filtration_8h_source.html">sFiltration.h</a> строка <a class="el" href="s_filtration_8h_source.html#l00137">137</a></p>
+</div><h2 class="groupheader">Конструктор(ы)</h2>
+<a class="anchor" id="a67063b6cadc8e41a7a3a60589b3fb82d"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class nmbits_in , class nmbits_out &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_c_s_i_g___f_i_r.html">CSIG_FIR</a>&lt; nmbits_in, nmbits_out &gt;::<a class="el" href="class_c_s_i_g___f_i_r.html">CSIG_FIR</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nWeights</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *(*)(unsigned)&#160;</td>
+          <td class="paramname"><em>malloc32_func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*)(void *)&#160;</td>
+          <td class="paramname"><em>free32_func</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Конструктор КИХ фильтра </p>
+<pre class="fragment"> Выделяет область памяти под внутреннюю структуру коэффициентов 
+</pre> <dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nWeights</td><td>устанавливает количество коэффициентов КИХ фильтра. nWeights=[3,5,7,9....]. </td></tr>
+    <tr><td class="paramname">malloc32_func</td><td>указатель на функцию выделения динамической памяти 32-разрядными словами. </td></tr>
+    <tr><td class="paramname">free32_func</td><td>указатель на функцию динамического освобождения памяти </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a class="anchor" id="a5b856137f675d99a14bf87c4cbaeb744"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class nmbits_in , class nmbits_out &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_c_s_i_g___f_i_r.html">CSIG_FIR</a>&lt; nmbits_in, nmbits_out &gt;::filter </td>
+          <td>(</td>
+          <td class="paramtype">nmbits_in *&#160;</td>
+          <td class="paramname"><em>pSrcVec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">nmbits_out *&#160;</td>
+          <td class="paramname"><em>pDstVec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Функция одномерной фильтрации </p>
+<p class="formulaDsp">
+<img class="formulaDsp" alt="\[ pDstVec[i] = \sum\limits_{j = 0}^{nWeights-1} {pSrcVec[i-nWeights/2] \cdot pWeights[j]} ,i=0 \ldots nSize-1 \]" src="form_7.png"/>
+</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pSrcVec</td><td>входной вектор </td></tr>
+    <tr><td class="paramname">pDstVec</td><td>выходной вектор </td></tr>
+    <tr><td class="paramname">nSize</td><td>размер вектора в элементах </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section warning"><dt>Предупреждения</dt><dd>При вычислении первых и последних nWeights/2 отсчетов производится выход за границы входного массива pSrcVec . Для коректного поведения функции необходимо дополнительные резервировать поля размером не менее nWeight/2 нулевых элементов перед началом и в конце массива pSrcVec. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4b1de31893bf83830c5fda35d52af053"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class nmbits_in , class nmbits_out &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="class_c_s_i_g___f_i_r.html">CSIG_FIR</a>&lt; nmbits_in, nmbits_out &gt;::init </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nWeights</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *(*)(unsigned)&#160;</td>
+          <td class="paramname"><em>malloc32_func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*)(void *)&#160;</td>
+          <td class="paramname"><em>free32_func</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Конструктор КИХ фильтра </p>
+<pre class="fragment"> Выделяет область памяти под внутреннюю структуру коэффициентов 
+</pre> <dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nWeights</td><td>устанавливает количество коэффициентов КИХ фильтра. nWeights=[3,5,7,9....]. </td></tr>
+    <tr><td class="paramname">malloc32_func</td><td>указатель на функцию выделения динамической памяти 32-разрядными словами. </td></tr>
+    <tr><td class="paramname">free32_func</td><td>указатель на функцию динамического освобождения памяти </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="afe80088db1a05961394d65bfaacb4cd8"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class nmbits_in , class nmbits_out &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void* <a class="el" href="class_c_s_i_g___f_i_r.html">CSIG_FIR</a>&lt; nmbits_in, nmbits_out &gt;::setWeights </td>
+          <td>(</td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>pWeights</em>)</td><td></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Загружает коэффициенты фильтра и инициализирует внутреннюю структуру хранения коэффициентов в pKernel. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pWeights</td><td>коэффициенты фильтра </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>указатель на внутреннюю структуру коэффициентов. 0- Если память под структуру не была выделена. </dd></dl>
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>D:/GIT/nmpp/include/nmpls/<a class="el" href="s_filtration_8h_source.html">sFiltration.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по nmpp. Последние изменения: Пн 6 Мар 2017 23:11:56. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.4
+</small></address>
+</body>
+</html>
